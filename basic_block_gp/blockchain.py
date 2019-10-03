@@ -211,6 +211,7 @@ def new_transaction():
 def full_chain():
     response = {
         # TODO: Return the chain and its current length
+        'chain': blockchain.chain
     }
     return jsonify(response), 200
 
